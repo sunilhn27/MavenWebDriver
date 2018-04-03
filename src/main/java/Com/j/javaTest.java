@@ -17,9 +17,11 @@ public class javaTest {
 		d.manage().window().maximize();
 	}
 
+	
+	
 	@Test
 	public void close() {
-		System.out.println("succesfully closed");
 		d.close();
 	}
+	
 }
